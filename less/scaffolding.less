@@ -1,0 +1,76 @@
+@font-face {
+	font-weight: normal;
+	font-family: "PT Sans Narrow";
+	font-style: normal;
+
+	src: url("../fonts/PTSansNarrow.woff2") format("woff2"), 
+	url("../fonts/PTSansNarrow.woff") format("woff");
+}
+
+@font-face {
+	font-weight: 700;
+	font-family: "PT Sans Narrow";
+	font-style: normal;
+
+	src: url("../fonts/PTSansNarrowBold.woff2") format("woff2"),
+	url("../fonts/PTSansNarrowBold.woff") format("woff");
+}
+
+body {
+	font-size: 18px;
+	line-height: 27px;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	color: #f7f4f1;
+	font-style: normal;
+	background-color: @bg-darkgrey;
+	background-color: #282828;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.btn {
+	display: block;
+	padding: 13px 29px 11px;
+	font-weight: 18px;
+	line-height: 24px;
+	text-align: center;
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: none;
+	background-color: transparent;
+	border: 1px solid #e5ddd5;
+
+	&:hover {
+		text-decoration: none;
+		border-color: #d5c9bd;
+	}
+
+	&:active {
+		color: rgba(0, 0, 0, 0.3);
+		text-decoration: none;
+		background-color: #d5c9bd;
+		border-color: #d5c9bd;
+		outline: none;
+	}
+
+	&:focus {
+		text-decoration: none;
+		outline: none;
+	}
+
+}

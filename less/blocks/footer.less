@@ -1,0 +1,283 @@
+.page-footer {
+	
+	min-height: 495px;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 36px;
+}
+
+.page-footer__wrapper {
+	border: 1px #3e3e3e solid;
+	.container();
+}
+
+.page-footer__tel{
+	display: block;
+	padding: 17px 0;
+	color: white;
+	border: 1px #3e3e3e solid;
+	text-decoration: none;
+	margin: 10px 20px 20px 20px;
+}
+
+@media @mobile-widths-only {
+	.page-footer__contacts-hidden {
+		font-size: 0px;
+	}
+}
+
+.social-link {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	margin-left: -2px;
+	margin-right: -2px;
+	width: 105px;
+	height: 102px;
+	border: 1px #3e3e3e solid;
+	font-size: 0;
+	position: relative;
+}
+
+.social-link--vk::before {
+	background-image: url("../img/vk-icon-mobile.gif");
+	width: 23px;
+	height: 26px;
+	content: "";
+	position: absolute;
+	top: 35px;
+	left: 45px;
+}
+
+.social-link--fb::before {
+	background-image: url("../img/fb-icon-mobile.gif");
+	width: 18px;
+	height: 39px;
+	content: "";
+	position: absolute;
+	top: 30px;
+	left: 45px;
+}
+
+.social-link--in::before {
+	background-image: url("../img/insta-icon-mobile.gif");
+	width: 36px;
+	height: 36px;
+	content: "";
+	position: absolute;
+	top: 30px;
+	left: 35px;
+}
+
+.page-footer__copyright {
+	padding-top: 32px;
+	padding-bottom: 12px;
+	margin-top: -15px;
+}
+
+.page-footer__copyright-link {
+	display: block;
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+	margin-bottom: 0px;
+	border: 1px #3e3e3e solid;
+	padding: 15px 0;
+	font-weight: bold;
+	background-color: transparent;	
+}
+
+@media @tablet-widths {
+
+	.page-footer {
+		margin-top: -16px;
+	}
+
+	.page-footer__wrapper {
+		position: relative;
+		margin-top: -20px;
+		padding: 0 40px;
+		width: 560px;
+	}
+
+	.page-footer__contacts {
+		text-align: left;
+		margin-right: 320px;
+		line-height: 18px;
+		padding-top: 20px;
+
+		& b {
+			text-transform: uppercase;
+		}
+	}
+
+	.page-footer__coordinates {
+		text-align: left;
+		padding-bottom: 0px;
+		padding-top: 0;
+		& br {
+			display: none;
+		}
+	}
+
+	.page-footer__tel{
+	display: block;
+	padding: 0;
+	margin: 0;
+	color: white;
+	border: 0px #3e3e3e solid;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-top: -15px;
+	text-align: left;
+	}
+
+	.social-link {
+		position: relative;
+		margin-left: -2px;
+		margin-right: -2px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 185px;
+		height: 98px;
+		border: 1px #3e3e3e solid;
+		font-size: 0;
+	}
+
+	.social-link--vk::before {
+	top: 35px;
+	left: 100px;
+	}
+
+	.social-link--fb::before {
+	top: 30px;
+	left: 95px;
+	}
+
+	.social-link--in::before {
+		top: 30px;
+		left: 90px;
+	}
+
+	.page-footer__copyright {
+		display: block;
+		position: absolute;
+		right: 40px;
+		top: 0;
+		border: 0px green solid;
+		padding-top: 45px;
+		width: 158px;
+	}
+
+	.page-footer__copyright-link {
+		margin: 15px auto;
+	}
+}
+
+@media @desktop-widths {
+
+	.page-footer {
+		margin-top: -16px;
+	}
+
+	.page-footer__wrapper {
+		position: relative;
+		margin-top: -20px;
+		min-height: 200px;
+		width: 900px;
+		padding: 0 30px;
+	}
+
+	.page-footer__contacts {
+		display: inline-block;
+		width: 320px;
+		text-align: left;
+		line-height: 18px;
+		padding-top: 20px;
+
+		& b {
+			text-transform: uppercase;
+			margin-left: -130px;
+		}
+	}
+
+	.page-footer__coordinates {
+		text-align: left;
+		padding-bottom: 0px;
+		padding-top: 0;
+		& br {
+			display: none;
+		}
+	}
+
+	.page-footer__tel{
+	display: block;
+	padding: 0;
+	margin-left: 0;
+	color: white;
+	border: 0px #3e3e3e solid;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-top: -15px;
+	text-align: left;
+	}
+
+	.page-footer__social {
+		position: absolute;
+		top: 50px;
+		left: 400px;
+
+	}
+
+	.social-link {
+		margin-right: 5px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 48px;
+		height: 48px;
+		border: 1px #3e3e3e solid;
+		font-size: 0;
+
+		&:last-child {
+			margin-right: 0px;
+		}
+	}
+
+	.social-link--vk::before {
+		top: 15px;
+		left: 17px;
+		background-image: url("../img/vk-icon-small.gif");
+		width: 15px;
+		height: 17px;
+	}
+
+	.social-link--fb::before {
+		top: 12px;
+		left: 20px;
+		background-image: url("../img/fb-icon-small.gif");
+		width: 10px;
+		height: 21px;
+	}
+
+	.social-link--in::before {
+		top: 14px;
+		left: 15px;
+		background-image: url("../img/insta-icon-small.gif");
+		width: 19px;
+		height: 19px;
+	}
+
+	.page-footer__copyright {
+		display: block;
+		position: absolute;
+		right: 40px;
+		top: 0;
+		border: 0px green solid;
+		padding-top: 45px;
+		width: 158px;
+	}
+
+	.page-footer__copyright-link {
+		margin: 15px auto;
+	}
+}
