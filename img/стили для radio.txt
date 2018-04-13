@@ -1,0 +1,77 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite--icon-check-off {
+    width: 23px;
+    height: 23px;
+    background-position: -10px -10px;
+}
+
+.sprite--icon-check-off-block {
+    width: 23px;
+    height: 23px;
+    background-position: -53px -10px;
+}
+
+.sprite--icon-check-off-hover {
+    width: 23px;
+    height: 23px;
+    background-position: -96px -10px;
+}
+
+.sprite--icon-check-on {
+    width: 27px;
+    height: 23px;
+    background-position: -10px -53px;
+}
+
+.sprite--icon-check-on-block {
+    width: 27px;
+    height: 23px;
+    background-position: -57px -53px;
+}
+
+.sprite--icon-check-on-hover {
+    width: 27px;
+    height: 23px;
+    background-position: -104px -53px;
+}
+
+.sprite--icon-radio-active {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -96px;
+}
+
+.sprite--icon-radio-active-block {
+    width: 25px;
+    height: 25px;
+    background-position: -55px -96px;
+}
+
+.sprite--icon-radio-active-hover {
+    width: 25px;
+    height: 25px;
+    background-position: -100px -96px;
+}
+
+.sprite--icon-radio-passive {
+    width: 25px;
+    height: 25px;
+    background-position: -151px -10px;
+}
+
+.sprite--icon-radio-passive-block {
+    width: 25px;
+    height: 25px;
+    background-position: -151px -55px;
+}
+
+.sprite--icon-radio-passive-hover {
+    width: 25px;
+    height: 25px;
+    background-position: -145px -100px;
+}
